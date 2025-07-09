@@ -92,6 +92,12 @@ body{
     max-width: 100%;
     height: auto;
 }
+.bancos{
+    text-align: center;
+    color: rgb(106, 153, 136);
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
 hr {
   border: none;
   height: 1px;
