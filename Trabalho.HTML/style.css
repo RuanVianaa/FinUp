@@ -1,0 +1,100 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f9f7f2;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #bcddc0;
+    height: 30px;
+}
+.logo{
+    width: 14rem;
+    height: auto;
+}
+
+.header ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+.header ul a{
+    text-decoration: none;
+    font-weight: bold;
+}
+.Entrar{
+    color:white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: #0b4650 solid 2px;
+    background-color: #0b4650;
+    height: 20px;
+    width: 100px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+.Entrar:hover{
+    background-color: #0d5b69;
+}
+.Criar{
+    color:#585858;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: #585858 solid 2px;
+    background-color: none;
+    height: 20px;
+    width: 200px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+.Criar:hover{
+    background-color: #0d5b69;
+    color: white;
+    border: none;
+}
+.Sobre{
+    color:#585858;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: #585858 solid 2px;
+    background-color: none;
+    height: 20px;
+    width: 100px;
+    text-align: center;
+    transition: background-color 0.3s, color 0.3s;
+}
+.Sobre:hover{
+    background-color: #346a74;
+    color: white;
+    border: none;
+}
+.bancos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.imagem-banco {
+    width: 600px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: block; 
+    max-width: 100%;
+    height: auto;
+}
+hr {
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  margin: 20px 0;
+}

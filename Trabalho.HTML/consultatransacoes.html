@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta Financeira</title>
+    <link rel="icon" href="Images/01.MAIN.png" type="image/png">
+</head>
+<body>
+    <header>
+        <h1>Simulador Financeiro</h1>
+        <nav>
+            <table>
+                <tr>
+                    <td><a href="index.html">Home</a></td>
+                    <td><a href="login.html">Login</a></td>
+                    <td><a href="historia.html">História</a></td>
+                    <td><a href="cadastro.html">Cadastro</a></td>
+                    <td><a href="consultadados.html">Consulta Dados</a></td>
+                    <td><a href="consultaextrato.html">Consulta Extrato Bancário</a></td>
+                </tr>
+            </table>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Consulta de Transações</h2>
+        <table border="1" cellspacing="0">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Tipo</th>
+                    <th>Descrição</th>
+                    <th>Valor</th>
+                    <th>Data</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>
+                        <select name="tipo1" id="tipo1">
+                            <option value="Receita">Receita</option>
+                            <option value="Despesa">Despesa</option>
+                        </select>
+                    </td>
+                    <td><input type="text" name="descricao1"></td>
+                    <td><input type="text" name="valor1" value="R$ "></td>
+                    <td><input type="date" name="data1"></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>
+                        <select name="tipo2" id="tipo2">
+                            <option value="Receita">Receita</option>
+                            <option value="Despesa">Despesa</option>
+                        </select>
+                    </td>
+                    <td><input type="text" name="descricao2"></td>
+                    <td><input type="text" name="valor2" value="R$ "></td>
+                    <td><input type="date" name="data2"></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>
+                        <select name="tipo3" id="tipo3">
+                            <option value="Receita">Receita</option>
+                            <option value="Despesa">Despesa</option>
+                        </select>
+                    </td>
+                    <td><input type="text" name="descricao3"></td>
+                    <td><input type="text" name="valor3" value="R$ "></td>
+                    <td><input type="date" name="data3"></td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por: Bianca Serafim, Edson Ribeiro, Ruan Viana</p>
+    </footer>
+</body>
+</html>

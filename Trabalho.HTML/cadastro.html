@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Simulador Financeiro</title>
+    <link rel="icon" href="Images/01.MAIN.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Simulador Financeiro Pessoal</h1>
+        <nav>
+            <table>
+                <tr>
+                    <td><a href="index.html">Home</a></td>
+                    <td><a href="login.html">Login</a></td>
+                    <td><a href="historia.html">História</a></td>
+                    <td><a href="consultatransacoes.html">Consulta Transações</a></td>
+                    <td><a href="consultadados.html">Consulta Dados</a></td>
+                    <td><a href="consultaextrato.html">Consulta Extrato Bancário</a></td>
+                </tr>
+            </table>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Crie sua Conta</h2>
+            <form action="cadastro.php" method="post">
+                <table border="1" cellspacing="0">
+                    <tr>
+                        <td><label for="nome">Nome:</label></td>
+                        <td><input type="text" id="nome" name="nome" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">E-mail:</label></td>
+                        <td><input type="email" id="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="senha">Senha:</label></td>
+                        <td><input type="password" id="senha" name="senha" required></td>
+                    </tr>
+                    <tr>
+                        <td><label for="senha">Confirmação de Senha:</label></td>
+                        <td><input type="password" id="senha" name="senha" required></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button type="submit">Cadastrar</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por: Bianca Serafim, Edson Ribeiro, Ruan Viana</p>
+    </footer>
+</body>
+</html>

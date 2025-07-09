@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Usuários</title>
+    <link rel="icon" href="Images/01.MAIN.png" type="image/png">
+</head>
+<body>
+    <header>
+        <h1>Simulador Financeiro</h1>
+        <nav>
+            <table>
+                <tr>
+                    <td><a href="index.html">Home</a></td>
+                    <td><a href="login.html">Login</a></td>
+                    <td><a href="historia.html">História</a></td>
+                    <td><a href="cadastro.html">Cadastro</a></td>
+                    <td><a href="consultatransacoes.html">Consulta Transações</a></td>
+                    <td><a href="consultaextrato.html">Consulta Extrato Bancário</a></td>
+                </tr>
+            </table>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Consulta de Usuários</h2>
+        <form>
+            <table border="1" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nome Completo</th>
+                        <th>E-mail</th>
+                        <th>Nome de Usuário</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td><input type="text" name="nome1" value="Ruan Viana"></td>
+                        <td><input type="email" name="email1" value="ruan.viana@email.com"></td>
+                        <td><input type="text" name="usuario1" value="ruanviana"></td>
+                        <td>
+                            <button type="submit">Salvar</button> |
+                            <a href="remover.html?id=1">Remover</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td><input type="text" name="nome2" value="Bianca Serafim"></td>
+                        <td><input type="email" name="email2" value="bianca.serafim@email.com"></td>
+                        <td><input type="text" name="usuario2" value="biancaserafim"></td>
+                        <td>
+                            <button type="submit">Salvar</button> |
+                            <a href="remover.html?id=2">Remover</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td><input type="text" name="nome3" value="Edson Ribeiro"></td>
+                        <td><input type="email" name="email3" value="edson.ribeiro@email.com"></td>
+                        <td><input type="text" name="usuario3" value="edsonribeiro"></td>
+                        <td>
+                            <button type="submit">Salvar</button> |
+                            <a href="remover.html?id=3">Remover</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por: Bianca Serafim, Edson Ribeiro, Ruan Viana</p>
+    </footer>
+</body>
+</html>
