@@ -153,3 +153,21 @@ hr {
 .botao-cadastro button:hover {
     background-color: rgb(106, 153, 136)
 }
+.porquinho {
+    position: absolute;
+    top: 300px;
+    left: 60%;
+    width: 500px;
+    height: 500px;
+}
+.rodape {
+    margin-top: 20px;
+    background-color: #bcddc0;
+    padding: 20px;
+    text-align: center;
+    color: #585858;
+    font-size: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
