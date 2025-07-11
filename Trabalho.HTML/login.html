@@ -3,57 +3,56 @@
 <head>
   <meta charset="UTF-8">
   <title>Login FinUp</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
     * {
       box-sizing: border-box;
+      margin: 0;
+      padding: 0;
     }
 
     html, body {
-      margin: 0;
-      padding: 0;
       height: 100%;
-      padding-top: 30px;
-      scrollbar-width: none;
+      font-family: Arial, sans-serif;
+      background-color: #bcddc0;
     }
 
     body {
-      font-family: Arial, sans-serif;
-      background-color: #bcddc0;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
+      padding-top: 30px;
     }
 
     .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding-top: 30px; 
-}
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+      width: 100%;
+    }
 
-.logo {
-    max-width: 100px;
-    height: auto;
-    margin: 50px auto 0 auto; 
-    margin-bottom: 5px;
-    
-}
-    
+    .logo {
+      max-width: 100px;
+      height: auto;
+      margin: 40px auto 10px auto;
+    }
 
     .login-box {
       background-color: #fff;
       padding: 40px;
       border-radius: 10px;
       box-shadow: 0 4px 20px rgba(0,0,0,0.1);
-      width: 350px;
-      margin: auto;
+      width: 100%;
+      max-width: 350px;
     }
 
     .login-box h2 {
       margin-bottom: 30px;
+      font-size: 24px;
+      color: #333;
     }
 
     .btn {
@@ -94,6 +93,7 @@
       margin-bottom: 15px;
       border-radius: 6px;
       border: 1px solid #ccc;
+      font-size: 16px;
     }
 
     .forgot {
@@ -117,6 +117,7 @@
       text-decoration: none;
       display: block;
       text-align: center;
+      font-size: 16px;
     }
 
     .login-btn:hover {
@@ -137,6 +138,44 @@
       text-decoration: none;
       font-weight: bold;
     }
+
+
+    @media (max-width: 480px) {
+      .login-box {
+        padding: 20px;
+        max-width: 90%;
+      }
+
+      .login-box h2 {
+        font-size: 20px;
+      }
+
+      .btn {
+        font-size: 14px;
+        padding: 10px;
+      }
+
+      input[type="email"],
+      input[type="password"] {
+        font-size: 14px;
+        padding: 10px;
+      }
+
+      .login-btn {
+        font-size: 14px;
+        padding: 10px;
+      }
+
+      .logo {
+        max-width: 80px;
+        margin: 30px auto 10px auto;
+      }
+
+      footer {
+        font-size: 14px;
+        padding: 15px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -148,12 +187,12 @@
       <h2>Acesse sua conta</h2>
 
       <button class="btn">
-        <img src="https://cdn-icons-png.flaticon.com/512/124/124010.png">
+        <img src="https://cdn-icons-png.flaticon.com/512/124/124010.png" alt="">
         Entrar com o Facebook
       </button>
 
       <button class="btn">
-        <img src="https://cdn-icons-png.flaticon.com/512/300/300221.png">
+        <img src="https://cdn-icons-png.flaticon.com/512/300/300221.png" alt="">
         Entrar com o Google
       </button>
 
