@@ -15,8 +15,11 @@ body{
     height: 30px;
 }
 .logo{
-    width: 14rem;
+    max-width: 100px;
     height: auto;
+    margin: 40px auto 10px auto;
+    margin-top: 16px;
+    margin-right: 10px;
 }
 
 .header ul{
